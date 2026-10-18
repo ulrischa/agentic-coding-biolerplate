@@ -1,0 +1,19 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+CLAUDE.local.md
+
+# Dependencies and generated output (adapt to project)
+node_modules/
+vendor/
+coverage/
+build/
+dist/
+.cache/
+
+# Logs and editor/OS noise
+*.log
+.DS_Store
+Thumbs.db
+.idea/
