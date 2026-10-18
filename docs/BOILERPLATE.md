@@ -11,14 +11,52 @@ purpose, runtime versions, setup and verified commands. The template contains no
 links that depend on its original directory, so it can be copied to the root.
 
 Keep application documentation in your README, working conventions in `AGENTS.md`
-and explanations of the starter in this guide. Maintain executable commands in
-one place: your application's README. Other documents should refer to it.
+and explanations of the starter in this guide. Document the standard setup, run,
+test and build commands in your application's README. Keep reusable automation
+in project scripts or task definitions, and reference those from the documentation.
+Avoid duplicating implementation details across documents.
 
 `TODO` means an unanswered question, not an established requirement. The example
 in `docs/DECISIONS.md` is not an accepted architecture decision. Complete these
 skeletons only as actual decisions emerge. Remove unneeded documents along with
 their references. The optional `src/` and `tests/` directories can be renamed or
 removed; their `.gitkeep` files are unnecessary once they contain real files.
+
+## Adapt the starter with your assistant
+
+After creating your project repository, use this setup request. Add your known
+project goal, stack and constraints before submitting it:
+
+> Inspect this project and adapt the boilerplate to its actual structure. Ask
+> about missing requirements before making significant assumptions. Update the
+> project README and relevant instructions. Preserve existing files and do not
+> invent commands or successful checks. Keep this task limited to project setup;
+> do not implement application features or commit, push or deploy changes.
+
+For a new, empty project, describe what you intend to build; the assistant cannot
+infer requirements from the placeholders. For an existing project, preserve its
+working setup and reconcile conventions instead of replacing them wholesale.
+
+Record project-specific facts that cannot be reliably inferred from the code in
+`AGENTS.md`: compatibility constraints, generated-file sources, unusual component
+relationships and known pitfalls. Keep this section short and factual. Update it
+when a constraint changes rather than accumulating stale advice.
+
+### Finish setup
+
+- [ ] The root README describes your own project and supported runtime versions.
+- [ ] Documented commands have been verified, or explicitly marked unavailable or
+      not applicable. Each command includes its working directory.
+- [ ] Project instructions match actual conventions; unresolved questions remain
+      clearly identified rather than silently filled with assumptions.
+- [ ] Unneeded placeholders are removed and references to them are adjusted.
+- [ ] Instructions and both skills are discoverable in your chosen assistant.
+
+After copying and completing the README skeleton, `templates/` can be removed
+from your project. This guide is optional once setup is complete: before removing
+it, move any useful project guidance to the appropriate project document and
+remove references to this guide, including the one in `AGENTS.md`. These cleanup
+steps apply to projects created from the starter, not to this template repository.
 
 ## How the assistants discover instructions and skills
 

@@ -15,14 +15,17 @@ Use dummy values in examples; document environment variables without credentials
 
 ## Development checks
 
-| Check | Command |
-| --- | --- |
-| Tests | Not configured |
-| Lint / static analysis | Not configured |
-| Build | Not configured |
+| Check | Command | Working directory |
+| --- | --- | --- |
+| Tests | Not configured | Not configured |
+| Lint / static analysis | Not configured | Not configured |
+| Build | Not configured | Not configured |
 
 Replace these entries with verified commands. Mark a check as not applicable
-if the project does not need it. No application or test runner is included yet.
+if the project does not need it. Specify where each command must run, for example
+the repository root or a component directory. No application or test runner is
+included yet. Keep reusable automation in project scripts or task definitions;
+document their invocation here rather than copying their implementation.
 
 ## Project documentation
 

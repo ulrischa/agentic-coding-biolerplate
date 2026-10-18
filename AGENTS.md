@@ -7,7 +7,13 @@ Use these shared project instructions when working in this repository.
 - Project purpose, stack and supported versions: consult `README.md`.
 - TODO entries are unanswered questions, not requirements or permission to invent defaults.
 - Architecture: consult `docs/ARCHITECTURE.md`. Sections marked TODO are not settled decisions.
-- Test, lint, build and run commands: consult `README.md`. A command marked "not configured" must not be treated as available.
+- Test, lint, build and run commands: consult `README.md`. Include the working directory for each command. A command marked "not configured" must not be treated as available.
+
+## Project-specific constraints and pitfalls
+
+TODO: Record only facts that are difficult to infer from the code, such as required
+compatibility, generated-file sources or unusual component relationships. Remove
+this placeholder when filled; keep the section concise and current.
 
 ## Workflow
 

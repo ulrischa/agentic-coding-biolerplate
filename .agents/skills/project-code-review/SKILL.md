@@ -15,7 +15,7 @@ Find actionable issues in the requested change or code area without editing file
 2. Read `AGENTS.md`, relevant architecture guidance and surrounding code paths.
 3. Trace changed behavior, callers, inputs, outputs, error paths and compatibility constraints.
 4. Look for correctness defects, regressions, security consequences, data loss, performance problems and insufficient tests.
-5. Run existing, relevant read-only checks only when available and permitted. Do not silently modify source or dependencies.
+5. Run relevant existing checks that do not automatically modify source files. Allow normal temporary test artifacts; avoid destructive operations and changes to external systems. Do not silently modify source or dependencies.
 6. Return findings **first**, ordered by severity. For each: explain the concrete scenario, impact and precise file location.
 7. Then list verification performed, missing coverage and important assumptions. If no issues were found, say so, without implying the code is proven safe.
 

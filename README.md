@@ -40,8 +40,9 @@ or adding runtime dependencies.
 5. Start a new agent session at the repository root. Check that the shared
    instructions and review skills are available before assigning a small task.
 
-The [guide](docs/BOILERPLATE.md) explains file responsibilities,
-assistant discovery, troubleshooting and how to add a skill. Keep it as a reference
+The [guide](docs/BOILERPLATE.md) includes a copyable setup request and a completion
+checklist, and explains file responsibilities, assistant discovery, troubleshooting
+and how to add a skill. Keep it as a reference
 while replacing this README with your own project documentation.
 
 ## Using the review skills
