@@ -37,7 +37,7 @@ Use these shared project instructions when working in this repository.
 - Update `README.md` when setup, commands or public behavior changes.
 - Update `docs/ARCHITECTURE.md` for meaningful structural changes.
 - Record significant trade-offs in `docs/DECISIONS.md`; don't turn routine changes into architecture decisions.
-- `docs/BOILERPLATE.de.md` explains the starter itself; application setup and commands belong in `README.md`.
+- `docs/BOILERPLATE.md` explains the starter itself; application setup and commands belong in `README.md`.
 - Repository workflows live in `.agents/skills/`. `.claude/skills/` contains compatibility entrypoints only.
 
 ## Review standard
